@@ -1,60 +1,187 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Materialze CSS Learning</title>
-    <link rel="stylesheet" href="css/materialize.css" />
-  </head>
-  <body>
-    <div class="header">
-      <h1 class="blue darken-4 white-text center-align">Test</h1>
-    </div>
-
-    <div class="container">
-      <img src="img/headphones.jpg" alt="" class="responsive-img" />
-      <h3 class="blue-text text-darken-4">Hello Everyone</h3>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur
-        qui vero atque similique tempore blanditiis nulla voluptate voluptates,
-        ipsum modi ipsa eum ex repellendus dignissimos quidem. Nesciunt quisquam
-        nihil quos neque dignissimos asperiores sequi sit similique iure optio
-        praesentium excepturi corporis quia aut incidunt eaque veritatis quae,
-        hic necessitatibus alias? Cum, enim veniam veritatis neque, excepturi
-        accusantium molestias consequatur numquam velit et minus atque nesciunt.
-      </p>
-    </div>
-
-    <div class="container">
-      <div class="row">
-        <div class="col l4 ">
-          <img src="img/Chinese boy.jpg" alt=""  class="responsive-img" />
-        </div>
-        <div class="col l4 "></div>
-        <div class="col l4 ">
-          <h4>Thank you</h4>
-          <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis,
-            error cumque! Rem perspiciatis veniam sapiente explicabo voluptatem
-            vel ipsa consectetur?
-          </p>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/materialize.css">
+</head>
+<body>
+  <div class="navbar-fixed">
+    <nav class="orange z-depth-0">
+      <div class="nav-wrapper">
+        <div class="container">
+          <a href="" class="brand-logo">
+            <img src="img/danisoft_logo_big.png" alt="" width="100px">
+          </a>
+          <ul class="right">
+            <li><a href="" class="white-text">About Us</a></li>
+            <li><a href="" class="white-text">Home</a></li>
+            <li><a href="" class="white-text">Services</a></li>
+            <li><a href="" class="white-text">Contact Us</a></li>
+  
+          </ul>
         </div>
       </div>
-      <div class="row">
-        <div class="col l4 ">
-          <h4>We Apprecaite</h4>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia
-            hic, pariatur eaque officia natus ratione dolorum a iure delectus
-            magni!
-          </p>
-        </div>
+    </nav>
+  </div>
+  <div class="container">
+    <div class="slider">
+      <ul class="slides">
+        <li>
+          <img src="img/Chinese boy.jpg" alt="">
+        </li>
+        <li>
+          <img src="img/headphones.jpg" alt="">
+        </li>
+        <li>
+          <img src="img/berries.jpg" alt="">
+        </li>
+      </ul>
+    </div>
+  </div>
 
-        <div class="col l4 "></div>
-        <div class="col l4 ">
-          <img src="img/berries.jpg" alt="" class="responsive-img" /> 
-        </div>
+  <div class="container">
+    <div class="row">
+      <div class="col s12 m6 l4">
+        <ul class="collapsible">
+          <li>
+            <div class="collapsible-header blue darken-3 z-depth-3">Followers</div>
+            <div class="collapsible-body blue lighten-4 ">
+              <div class="card-content">
+                <h3 class="center-align white-text z">256M</h3>
+                
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <div class="col s12 m6 l4">
+        <ul class="collapsible">
+          <li>
+            <div class="collapsible-header pink darken-3 z-depth-3">Likes</div>
+            <div class="collapsible-body pink lighten-4 ">
+              <div class="card-content ">
+                <h3 class="center-align white-text z">1.8B </h3>
+                
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <div class="col s12 m6 l4">
+        <ul class="collapsible">
+          <li>
+            <div class="collapsible-header red darken-3 z-depth-3">Bookmarks</div>
+            <div class="collapsible-body red lighten-2 ">
+              <div class="card-content ">
+                <h3 class="center-align white-text z">900M</h3>
+                
+              </div>
+            </div>
+          </li>
+        </ul>
       </div>
     </div>
-  </body>
+  </div>
+
+
+
+
+
+  <div class="container">    
+    <h1>Items</h1>
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius velit unde amet error asperiores laudantium neque sed iste pariatur corrupti fugit maxime, at dolorum officiis corporis harum laborum modi. Nihil error praesentium obcaecati. Quo, debitis, deleniti aperiam autem esse quae nulla corporis in non officiis eos iste eius soluta at!</p>
+
+  <a href="#Terms" class="modal-trigger"><p>I have accepted terms and conditions of this agreement</p></a>
+  <div class="modal orange lighten-3" id="Terms">
+    <p class="center-align  white-text">
+      Are you sure you read it 😶😶😶 
+    </p>
+  </div>
+
+<div class="row">
+
+  <!-- 1st -->
+  <div class="col s12 m6 l4 ">
+    <div class="card hoverable">
+      <div class="card-image"><img src="img/berries.jpg" alt="" class="responsive-img materialboxed" data-caption="BAKA BAKA BAKA"></div>
+      <div class="card-content">
+        <h4 class="orange-text text-darken-4">Berries</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, provident.</p>
+      </div>
+      <div class="card-action">
+        <a href="#">Cook Now</a>
+        <a href="#">Ingredeints</a>
+      </div>
+    </div>
+  </div>
+
+<!-- 2nd -->
+  <div class="col s12 m6 l4">
+    <div class="card hoverable">
+      <div class="card-image"><img src="img/headphones.jpg" alt=""></div>
+      <div class="card-content">
+        <h4 class="orange-text text-darken-4">Headphone</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, provident.</p>
+      </div>
+      <div class="card-action">
+        <a href="#">Cook Now</a>
+        <a href="#">Ingredeints</a>
+      </div>
+    </div>
+  </div>
+
+<!-- 3rd -->
+  <div class="col s12 m6 l4 ">
+    <div class="card hoverable">
+      <div class="card-image"><img src="img/Chinese boy.jpg" alt=""></div>
+      <div class="card-content">
+        <h4 class="orange-text text-darken-4">Chinese boy</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, provident.</p>
+      </div>
+      <div class="card-action">
+        <a href="#">Cook Now</a>
+        <a href="#">Ingredeints</a>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+
+  </div>
+  <div class="parallax-container">
+    <div class="parallax">
+      <img src="img/berries.jpg" alt="">
+    </div>
+  </div>
+  <div class="container">
+  <p>
+    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius ea incidunt tenetur in ex, nemo consequuntur possimus ducimus nihil mollitia facere reiciendis itaque nesciunt est, soluta ab. Molestias eveniet quos et odit voluptatibus eaque rem nisi distinctio blanditiis nostrum unde placeat officiis rerum ipsum dolorum exercitationem, ducimus omnis animi? Ipsa mollitia atque ut odit voluptatem doloribus velit distinctio eos ipsum saepe, praesentium vitae, amet vel harum architecto ipsam quam, impedit modi? Ipsa tempore reiciendis excepturi recusandae repellat a ratione fugit quas praesentium quis nostrum ducimus temporibus molestiae harum id inventore quam esse alias rerum officiis, pariatur aliquam consequuntur similique. Aliquid neque dolor provident fuga odio accusamus beatae nulla odit nisi mollitia, fugiat atque libero maxime, rerum natus maiores! Nihil dolorum voluptas sint officiis reprehenderit ex eligendi tenetur accusantium ut, vitae, laborum aliquam eos quibusdam adipisci omnis officia corrupti? Architecto molestias tenetur facere labore quaerat? Cum voluptate sint dolorum doloribus iste at recusandae eligendi suscipit. Ex consectetur fugit veritatis accusamus possimus, rem nisi nobis delectus itaque, ea aliquam iusto quis rerum ipsa alias doloremque quibusdam vel quisquam deserunt ipsum error. Quam laudantium facilis perspiciatis saepe soluta amet eos! Exercitationem quod aspernatur a. Explicabo numquam commodi veniam ducimus quas! Natus eveniet expedita modi necessitatibus quod saepe consequatur minima veniam, distinctio architecto, neque reiciendis nulla recusandae unde beatae repellendus quas, fuga non? Voluptas, a et dicta quasi accusamus adipisci aspernatur molestias velit eaque cumque libero ex dolor eligendi sapiente totam aut, sunt quibusdam officiis dignissimos quod? Rem vero repudiandae repellat nemo magni deleniti eveniet voluptate, odit doloremque similique nam molestiae voluptas temporibus? Ab neque, assumenda, corrupti repellendus consectetur quo deserunt ut saepe aperiam tenetur doloribus error quidem commodi maxime aspernatur optio repellat quaerat. Impedit aliquid laborum incidunt architecto doloremque error quos ducimus est recusandae labore iste, voluptatem harum doloribus fugiat esse odit dolore id eveniet odio veniam ex eius. Blanditiis corporis, velit officia praesentium maxime animi obcaecati temporibus esse impedit corrupti. Facilis ipsam earum aliquid placeat nam praesentium totam atque, sit debitis nisi, culpa fugiat beatae asperiores maxime quas? Doloribus suscipit accusamus pariatur dolore rem esse hic consectetur ratione temporibus deleniti, laboriosam molestiae est ipsam? Ea eos molestiae, architecto autem ullam officia excepturi magni maiores omnis fugiat, fuga ratione earum ut. Id assumenda, culpa obcaecati vitae ab aliquam sunt non sint eveniet optio quaerat perspiciatis, temporibus reiciendis blanditiis inventore fugiat praesentium eaque maxime at sequi officiis iusto alias. Aliquam officia facilis quisquam ipsa earum? Aliquid deleniti eos eum voluptatum. Qui, suscipit amet? Aliquam sint eligendi reiciendis quia inventore sunt consequuntur architecto placeat odio, libero natus accusamus quo ipsa facere vitae officia earum mollitia sed minima id alias amet ex corrupti sequi! Cumque perspiciatis doloribus impedit itaque commodi enim accusamus illo, modi quae repellendus dolor, beatae placeat autem tenetur quisquam, eius eum. Modi quasi dolore quia, maxime quibusdam omnis tempore quis illo architecto voluptate, magnam quidem cum, alias cupiditate! Omnis ducimus ab nemo neque impedit cupiditate illum quis placeat cum, rem provident officiis accusamus error laboriosam exercitationem, dolorem maiores eligendi eos eum, suscipit dignissimos.
+  </p>
+  </div>
+
+
+
+  <script src="js/jquery.js"></script>
+  <script src="js/materialize.js"></script>
+  <script>
+    $(document).ready(function(){
+      $('.slider').slider(
+        {
+          duration:2000,
+          transition: 5000,
+          indicators: false,
+        }
+      );
+      $('.collapsible').collapsible();
+      $('.modal').modal();
+      $('.materialboxed').materialbox();
+      $('.parallax').parallax();
+
+
+    });
+  </script>
+</body>
 </html>
